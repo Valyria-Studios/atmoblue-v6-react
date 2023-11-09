@@ -1,0 +1,402 @@
+{
+    "data24Hr": [
+      {
+        "time": "Midnight",
+        "cityPM": 120,
+        "airPM": 20,
+        "mask%": 99.0
+      },
+      {
+        "time": "3 AM",
+        "cityPM": 150,
+        "airPM": 15,
+        "mask%": 99.5
+      },
+      {
+        "time": "6 AM",
+        "cityPM": 130,
+        "airPM": 25,
+        "mask%": 98.8
+      },
+      {
+        "time": "9 AM",
+        "cityPM": 180,
+        "airPM": 10,
+        "mask%": 99.8
+      },
+      {
+        "time": "Noon",
+        "cityPM": 110,
+        "airPM": 30,
+        "mask%": 99.2
+      },
+      {
+        "time": "3 PM",
+        "cityPM": 200,
+        "airPM": 5,
+        "mask%": 99.7
+      },
+      {
+        "time": "6 PM",
+        "cityPM": 160,
+        "airPM": 35,
+        "mask%": 98.7
+      },
+      {
+        "time": "9 PM",
+        "cityPM": 220,
+        "airPM": 2,
+        "mask%": 99.9
+      }
+    ],
+    "dataWeek": [
+        {
+          "day": "3/15",
+          "cityPM": 120,
+          "airPM": 20,
+          "mask%": 99.0
+        },
+        {
+          "day": "3/17",
+          "cityPM": 150,
+          "airPM": 15,
+          "mask%": 99.5
+        },
+        {
+          "day": "3/19",
+          "cityPM": 130,
+          "airPM": 25,
+          "mask%": 98.8
+        },
+        {
+          "day": "3/21",
+          "cityPM": 180,
+          "airPM": 10,
+          "mask%": 99.8
+        },
+        {
+          "day": "3/23",
+          "cityPM": 110,
+          "airPM": 30,
+          "mask%": 99.2
+        },
+        {
+          "day": "3/25",
+          "cityPM": 200,
+          "airPM": 5,
+          "mask%": 99.7
+        },
+        {
+          "day": "3/27",
+          "cityPM": 160,
+          "airPM": 35,
+          "mask%": 98.7
+        }
+      ],
+      "dataMonth": [
+        {
+          "day": "3/15",
+          "cityPM": 120,
+          "airPM": 20,
+          "mask%": 99.0
+        },
+        {
+          "day": "3/16",
+          "cityPM": 150,
+          "airPM": 15,
+          "mask%": 99.5
+        },
+        {
+          "day": "3/17",
+          "cityPM": 130,
+          "airPM": 25,
+          "mask%": 99.2
+        },
+        {
+          "day": "3/18",
+          "cityPM": 180,
+          "airPM": 10,
+          "mask%": 99.8
+        },
+        {
+          "day": "3/19",
+          "cityPM": 110,
+          "airPM": 30,
+          "mask%": 99.3
+        },
+        {
+          "day": "3/20",
+          "cityPM": 200,
+          "airPM": 5,
+          "mask%": 99.7
+        },
+        {
+          "day": "3/21",
+          "cityPM": 160,
+          "airPM": 35,
+          "mask%": 99.1
+        },
+        {
+          "day": "3/22",
+          "cityPM": 140,
+          "airPM": 18,
+          "mask%": 99.4
+        },
+        {
+          "day": "3/23",
+          "cityPM": 170,
+          "airPM": 12,
+          "mask%": 99.9
+        },
+        {
+          "day": "3/24",
+          "cityPM": 135,
+          "airPM": 28,
+          "mask%": 98.7
+        },
+        {
+          "day": "3/25",
+          "cityPM": 125,
+          "airPM": 22,
+          "mask%": 98.9
+        },
+        {
+          "day": "3/26",
+          "cityPM": 155,
+          "airPM": 17,
+          "mask%": 99.6
+        },
+        {
+          "day": "3/27",
+          "cityPM": 145,
+          "airPM": 21,
+          "mask%": 99.2
+        },
+        {
+          "day": "3/28",
+          "cityPM": 115,
+          "airPM": 32,
+          "mask%": 99.3
+        },
+        {
+          "day": "3/29",
+          "cityPM": 165,
+          "airPM": 14,
+          "mask%": 99.5
+        },
+        {
+          "day": "3/30",
+          "cityPM": 175,
+          "airPM": 11,
+          "mask%": 99.7
+        },
+        {
+          "day": "3/31",
+          "cityPM": 185,
+          "airPM": 9,
+          "mask%": 99.8
+        },
+        {
+          "day": "4/1",
+          "cityPM": 195,
+          "airPM": 7,
+          "mask%": 99.9
+        },
+        {
+          "day": "4/2",
+          "cityPM": 105,
+          "airPM": 40,
+          "mask%": 98.5
+        },
+        {
+          "day": "4/3",
+          "cityPM": 225,
+          "airPM": 3,
+          "mask%": 99.2
+        },
+        {
+          "day": "4/4",
+          "cityPM": 205,
+          "airPM": 6,
+          "mask%": 99.4
+        },
+        {
+          "day": "4/5",
+          "cityPM": 215,
+          "airPM": 5,
+          "mask%": 99.6
+        },
+        {
+          "day": "4/6",
+          "cityPM": 235,
+          "airPM": 2,
+          "mask%": 99.8
+        },
+        {
+          "day": "4/7",
+          "cityPM": 245,
+          "airPM": 1,
+          "mask%": 99.9
+        },
+        {
+          "day": "4/8",
+          "cityPM": 225,
+          "airPM": 3,
+          "mask%": 99.7
+        },
+        {
+          "day": "4/9",
+          "cityPM": 215,
+          "airPM": 5,
+          "mask%": 99.5
+        },
+        {
+          "day": "4/10",
+          "cityPM": 195,
+          "airPM": 7,
+          "mask%": 99.3
+        },
+        {
+          "day": "4/11",
+          "cityPM": 175,
+          "airPM": 11,
+          "mask%": 99.0
+        },
+        {
+          "day": "4/12",
+          "cityPM": 165,
+          "airPM": 14,
+          "mask%": 98.7
+        },
+        {
+          "day": "4/13",
+          "cityPM": 155,
+          "airPM": 17,
+          "mask%": 98.5
+        }
+      ],
+      "dataYear": [
+        {
+          "month": "Jan",
+          "cityPM": 150,
+          "airPM": 50,
+          "mask%": 99.0
+        },
+        {
+          "month": "Feb",
+          "cityPM": 130,
+          "airPM": 35,
+          "mask%": 98.7
+        },
+        {
+          "month": "Mar",
+          "cityPM": 120,
+          "airPM": 30,
+          "mask%": 99.5
+        },
+        {
+          "month": "Apr",
+          "cityPM": 140,
+          "airPM": 40,
+          "mask%": 99.2
+        },
+        {
+          "month": "May",
+          "cityPM": 110,
+          "airPM": 25,
+          "mask%": 98.9
+        },
+        {
+          "month": "Jun",
+          "cityPM": 160,
+          "airPM": 60,
+          "mask%": 99.7
+        },
+        {
+          "month": "Jul",
+          "cityPM": 170,
+          "airPM": 55,
+          "mask%": 99.8
+        },
+        {
+          "month": "Aug",
+          "cityPM": 180,
+          "airPM": 45,
+          "mask%": 99.9
+        },
+        {
+          "month": "Sep",
+          "cityPM": 190,
+          "airPM": 50,
+          "mask%": 99.3
+        },
+        {
+          "month": "Oct",
+          "cityPM": 200,
+          "airPM": 70,
+          "mask%": 99.1
+        },
+        {
+          "month": "Nov",
+          "cityPM": 210,
+          "airPM": 75,
+          "mask%": 99.4
+        },
+        {
+          "month": "Dec",
+          "cityPM": 220,
+          "airPM": 80,
+          "mask%": 99.6
+        }
+      ],
+      "dataCity": [
+        {
+          "time": "Midnight",
+          "pm2.5": 120,
+          "pm10": 150,
+          "SO2": 45
+        },
+        {
+          "time": "3 AM",
+          "pm2.5": 140,
+          "pm10": 160,
+          "SO2": 55
+        },
+        {
+          "time": "6 AM",
+          "pm2.5": 180,
+          "pm10": 200,
+          "SO2": 70
+        },
+        {
+          "time": "9 AM",
+          "pm2.5": 250,
+          "pm10": 280,
+          "SO2": 60
+        },
+        {
+          "time": "Noon",
+          "pm2.5": 300,
+          "pm10": 335,
+          "SO2": 75
+        },
+        {
+          "time": "3 PM",
+          "pm2.5": 200,
+          "pm10": 220,
+          "SO2": 40
+        },
+        {
+          "time": "6 PM",
+          "pm2.5": 175,
+          "pm10": 200,
+          "SO2": 35
+        },
+        {
+          "time": "9 PM",
+          "pm2.5": 160,
+          "pm10": 145,
+          "SO2": 25
+        }
+      ]
+  }

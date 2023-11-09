@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  font-family: Arial;
+  color: #333;
+}
+
+header nav {
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #03A9F4;
+}
+
+header h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.links {
+  margin-left: auto;
+}
+
+header nav a {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 0px;
+  padding: 16px;
+}
+
+header nav a:hover {
+  background-color: white;
+  color: #03A9F4;
+  border-radius: 8px;
+}
+
+.myAir {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.myAir h2 {
+  font-size: 24px;
+  color: #03A9F4;
+}
+
+.myAir h3 {
+  font-size: 20px;
+  color: #607D8B;
+  margin-bottom: 16px;
+}
+
+.myAir p {
+  color: #607D8B;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.timeScale {
+  display: flex;
+  gap: 16px;
+}
+
+.infoList ul {
+  margin-top: 24px;
+  list-style-type: none;
+}
+
+.myAirChart h3 {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.avgConsumption {
+  font-size: 128px;
+  color: #03A9F4;
+  font-weight: 900;
+}
+
+.myCity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.myCity h2 {
+  font-size: 24px;
+  color: #03A9F4;
+  margin-bottom: 24px;
+}
+
+.cityPM {
+  font-size: 128px;
+  color: #ED3A50;
+  font-weight: 900;
+}
+
+.myCity h3 {
+  font-size: 20px;
+  color: #607D8B;
+  margin-bottom: 16px;
+}
+
+.myCity p {
+  color: #555555;
+  width: 600px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.myMask {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.myMask h2 {
+  font-size: 24px;
+  color: #03A9F4;
+  margin-bottom: 24px;
+}
+
+.myMask h3 {
+  font-size: 20px;
+  color: #607D8B;
+  margin-bottom: 16px;
+}
+
+.blocked {
+  font-size: 128px;
+  color: #03A9F4;
+  font-weight: 900;
+}
+
+.modal {
+  margin: auto;
+  border-radius: 16px;
+}
+
+.modal p {
+  text-align: left;
+}
+
+.modalTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.modalTop button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.infoModals {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+}
