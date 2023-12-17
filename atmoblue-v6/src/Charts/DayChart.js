@@ -1,9 +1,27 @@
+import { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
-import data from "../Data/db.json";
+// import data from "../Data/db.json";
+
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../config/firestore";
 
 export default function DayChart() {
+
+  const [hourlyData, setHourlyData] = useState();
+
+  const getData = async () => {
+    const querySnapshot = await getDocs(collection(db, "hourly"));
+    const hourlyData = querySnapshot.docs.map(doc => ({id: doc.id, ...doc.data()}))
+    setHourlyData(hourlyData)
+    console.log(hourlyData);
+  }
+  
+  useEffect(() => {
+    getData()
+  }, []);
+
   return (
-    <LineChart width={600} height={300} data={data.data24Hr}>
+    <LineChart width={600} height={300} data={hourlyData}>
       <XAxis dataKey="time" />
       <YAxis yAxisId="left"/>
       <YAxis yAxisId="right" orientation="right" domain={[90, 100]} />
