@@ -10,6 +10,7 @@ export default function Navbar() {
             <NavLink to="/">My Air</NavLink>
             <NavLink to="cityview">City View</NavLink>
             <NavLink to="maskview">Mask View</NavLink>
+            <NavLink to="data">Data</NavLink>
           </div>
         </nav>
       </header>

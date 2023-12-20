@@ -10,6 +10,7 @@ import Navbar from './Navbar';
 import MyAir from './MyAir';
 import MyMask from './MyMask';
 import MyCity from './MyCity';
+import Data from './Data';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
       <Route index element={<MyAir />} />
       <Route path="cityview" element={<MyCity />} />
       <Route path="maskview" element={<MyMask />} />
+      <Route path="data" element={<Data />} />
     </Route>
   )
 )

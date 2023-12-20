@@ -1,9 +1,8 @@
 import { useEffect, useState } from 'react';
 import { LineChart, Line, XAxis, YAxis, Tooltip, Legend } from 'recharts';
-// import data from "../Data/db.json";
-
 import { collection, getDocs } from "firebase/firestore";
 import { db } from "../config/firestore";
+// import data from "../Data/db.json";
 
 export default function DayChart() {
 
@@ -29,7 +28,7 @@ export default function DayChart() {
       <Legend />
       <Line yAxisId="left" type="monotone" dataKey="cityPM" stroke="#17B5F0" name="City PM 2.5" />
       <Line yAxisId="left" type="monotone" dataKey="airPM" stroke="#1F4FA3" name="Average PM 2.5" />
-      <Line yAxisId="right" type="monotone" dataKey="mask%" stroke="#4089C6" name="Particles Blocked" />
+      <Line yAxisId="right" type="monotone" dataKey="maskP" stroke="#4089C6" name="Particles Blocked" />
     </LineChart>
   )
 }
