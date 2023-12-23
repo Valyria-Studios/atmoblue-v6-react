@@ -234,3 +234,7 @@ table {
 .input-form {
   margin-top: 24px;
 }
+
+input, label {
+  margin-left: 12px;
+}
